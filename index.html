@@ -4,10 +4,152 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
+  <style>
+    @import url(./styles/normalize.css);
+    @import url(./styles/style.css);
+  </style>
 </head>
 <body>
   <div class="page">
+<!-- Шапка -->
+  <header class="header">
+    <div class="logo logo__place_header"></div>
+    <h1 class="header__title">Научиться учиться</h1>
+    <div class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?</div>
+    <div class="header__illustration"></div>
+    <div class="header__square-pic"></div>
+  </header>
+<!-- / Шапка -->
+<main id="content">
+  <section id="description">
+    <div class="two_columns">
+      <h1 class="brief">Главные проблемы в обучении</h1>
+      <div class="main_text"></div>
+      <div class="paragraph">
+        <div class="paragraph_margin">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</div>
+        <div class="paragraph_margin"><span class="span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</div>
+        <div>Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</div>
+      </div>
+    </div>
+  </section>
+  <section id="digits">
+    <h1 class="section-title">Цифры и факты</h1>
+    <h2 class="section-subtitle">Про учебу и мозг</h2>
+      <ul class="table">
+        <li class="cell">
+          <h3 class="cell__heading">86 миллиардов</h3>
+          <h4 class="cell__text cell__text_margin">Число нейронов в мозге человека</h4>
+        </li>
+        <li class="cell">
+          <h3 class="cell__heading">2.1 миллиарда</h3>
+          <h4 class="cell__text cell__text_margin">Число нуждающихся в повышении квалификации</h4>
+            <div class="cell__text">Всемирный Банк, 2017</div>
+        </li>
+        <li class="cell">
+          <h3 class="cell__heading">1000 терабайт</h3>
+          <h4 class="cell__text cell__text_margin">Объём памяти человека</h4>
+        </li>
+        <li class="cell">
+          <h3 class="cell__heading">500 триллионов</h3>
+          <h4 class="cell__text cell__text_margin">Число ответственных за обучение нервных синапсов у взрослого человека</h4>
+        </li>
+        <li class="cell">
+          <h3 class="cell__heading">420 миллионов</h3>
+          <h4 class="cell__text cell__text_margin">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</h4>
+            <div class="cell__text">Всемирный Банк, 2017</div>
+        </li>
+        <li class="cell">
+          <h3 class="cell__heading">17–20 лет</h3>
+          <h4 class="cell__text cell__text_margin">Пик обучаемости</h4>
+        </li>
+        <li class="cell">
+          <h3 class="cell__heading">1885 год</h3>
+          <h4 class="cell__text cell__text_margin">Открытие кривой забывания</h4>
+        </li>
+        <li class="cell">
+          <h3 class="cell__heading">1889 год</h3>
+          <h4 class="cell__text cell__text_margin">Открытие условного рефлекса</h4>
+        </li>
+      </ul>
+  </section>
+  <section class="feynman" id="feynman">
+    <h1 class="feynman__title">Метод Фейнмана</h1>
+    <h2 class="feynman__subtitle">Выучить и не забыть.</h2>
+    <a class="feynman__link" href="feynman">Подробнее →</a>
+    <img class="feynman__img" src="./images/feynman.png" alt="фейнман бог">
+  </section>
 
-  </div>
+  <section id="kaufman" class="kaufman kaufman__theme_dark">
+    <h1 class="section-title kaufman__theme_dark">Принципы обучения</h1>
+    <h2 class="section-subtitle kaufman__theme_dark">от Джоша Кауфмана</h2>
+      <ul class="table">
+        <li class="cell table__cell_theme_dark">
+          <h3 class="cell__heading">1</h3>
+          <h4 class="cell__text cell__text_margin">Выберите привлекательный проект.</h4>
+        </li>
+        <li class="cell table__cell_theme_dark">
+          <h3 class="cell__heading">2</h3>
+          <h4 class="cell__text cell__text_margin">Сосредоточьтесь на каком-то одном навыке.</h4>
+        </li>
+        <li class="cell table__cell_theme_dark">
+          <h3 class="cell__heading">3</h3>
+          <h4 class="cell__text cell__text_margin">Определите целевой уровень мастерства.</h4>
+        </li>
+        <li class="cell table__cell_theme_dark">
+          <h3 class="cell__heading">4</h3>
+          <h4 class="cell__text cell__text_margin">Разбейте навык на элементы.</h4>
+        </li>
+        <li class="cell table__cell_theme_dark">
+          <h3 class="cell__heading">5</h3>
+          <h4 class="cell__text cell__text_margin">Приготовьте всё необходимое для занятий.</h4>
+        </li>
+        <li class="cell table__cell_theme_dark">
+          <h3 class="cell__heading">6</h3>
+          <h4 class="cell__text cell__text_margin">Устраните препятствия для занятий.</h4>
+        </li>
+        <li class="cell table__cell_theme_dark">
+          <h3 class="cell__heading">7</h3>
+          <h4 class="cell__text cell__text_margin">Выделите специальное время для занятий.</h4>
+        </li>
+        <li class="cell table__cell_theme_dark">
+          <h3 class="cell__heading">8</h3>
+          <h4 class="cell__text cell__text_margin">Создайте быстрые петли обратной связи.</h4>
+        </li>
+        <li class="cell table__cell_theme_dark">
+          <h3 class="cell__heading">9</h3>
+          <h4 class="cell__text cell__text_margin">Занимайтесь по расписанию, короткими интенсивными интервалами.</h4>
+        </li>
+        <li class="cell table__cell_theme_dark">
+          <h3 class="cell__heading">10</h3>
+          <h4 class="cell__text cell__text_margin">Уделяйте внимание количеству и скорости.</h4>
+        </li>
+      </ul>
+      <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="магический трегольник Кауфмана">
+  </section>
+  <footer class="footer">
+    <div class="footer__columns">
+      <div class="footer__columns-content-copyright">
+        <div class="footer__author">&copy; Виктор Абанькин</div>
+        <div class="logo logo__place_footer"></div>
+      </div>
+      <div class="footer__columns-content-info"> 
+        <div class="footer__column-heading">О практикуме</div>
+        <nav class="footer__column-links">
+          <li><a class="footer__column-link" href="#">Главная</a></li>
+          <li><a class="footer__column-link" href="#">Концепция</a></li>
+          <li><a class="footer__column-link" href="#">Наставники</a></li> 
+        </nav>
+      </div>
+      <div class="footer__columns-content-social">
+        <div class="footer__column-heading">Соцсети</div>
+        <nav class="footer__column-links">
+          <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facbook">Facebook</a></li>
+          <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте">ВКонтакте</a></li>
+          <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">Instagram</a></li> 
+        </nav>
+      </div>
+    </div>
+  </footer>
+</main>
 </body>
 </html>
