@@ -53,7 +53,7 @@
 }
 .header__illustration{
   background-image: url(../images/header-image.png);
-  background-size: 765px 608px ;
+  background-size: 765px 608px;
   background-repeat: no-repeat;
   position: absolute;
   width: 765px;
@@ -255,7 +255,7 @@
   background-image: url(../images/logo/logo_place_footer.svg);
 }
 .footer__author {
-  margin: 18px 0 18px ;
+  margin: 18px 0 18px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
