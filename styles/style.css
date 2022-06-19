@@ -42,8 +42,8 @@
   line-height: 96px;
   font-weight: 700;
   z-index: 5;
-  margin:0;
-  padding 0;
+  margin: 0;
+  padding: 0;
 }
 .header__subtitle {
   position: absolute; 
@@ -62,8 +62,8 @@
   position: absolute;
   width: 765px;
   height: 608px;
-  right: 0px;
-  bottom: 0px;
+  right: 0;
+  bottom: 0;
   z-index: 2;
 }
 
