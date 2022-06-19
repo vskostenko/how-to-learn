@@ -34,7 +34,7 @@
   background-image: url(../images/logo/logo_place_header.svg);
 } 
 .header__title {
-  width: 730px; 
+  width: 730px;
   padding: 64px;
   font-size: 102px;
   line-height: 96px;
@@ -42,7 +42,7 @@
   z-index: 5;
 }
 .header__subtitle {
-  position: absolute; 
+  position: absolute;
   bottom: 30px;
   width: 388px;
   left: 64px;
@@ -94,9 +94,10 @@
 .paragraph {
   display: flex;
   flex-direction: column;
-  width: 80%; min-width: 784px;
+  width: 80%;
+  min-width: 784px;
   font-size: 24px;
-  font-weight: normal;
+  font-weight : normal;
   line-height: 34px;
   justify-content: space-between;
 }
@@ -208,7 +209,7 @@
   flex-direction: column;
   margin: 0px auto 0px;
   padding: 80px 80px;
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
   justify-content: space-between;
 }
