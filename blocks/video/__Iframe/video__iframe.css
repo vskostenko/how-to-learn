@@ -1,8 +1,8 @@
-.video__iframes_iframe {
+.video__iframe {
     width: 515px;
     height: 316px;
     margin-top: 50px;
 }
-.video__iframes_iframe:first-child {
+.video__iframe:first-child {
     margin-right: 20px;
 }
