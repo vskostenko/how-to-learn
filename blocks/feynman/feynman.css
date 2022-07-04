@@ -2,7 +2,6 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    padding-top: 100px;
     min-height: 890px;
     background-color: #f2f2f2;
   }
